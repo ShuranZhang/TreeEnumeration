@@ -10,4 +10,5 @@ Run Instruction(n refers to number of nodes the user want to generate all possib
    ocaml TreeEnumeration.ml n
 2. Prolog: 
    wipl TreeEnumeration.pl
+   
    treeEnumerate(n,L), write(L), nl, fail.
