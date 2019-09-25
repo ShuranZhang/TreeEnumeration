@@ -7,8 +7,11 @@ unlabled binary trees in parenthesized form, ie: all trees with 2 nodes will exp
 
 Run Instruction(n refers to number of nodes the user want to generate all possible unlabeled trees): 
 1. Ocaml: 
+   
    ocaml TreeEnumeration.ml n
+   
 2. Prolog: 
+   
    wipl TreeEnumeration.pl
    
    treeEnumerate(n,L), write(L), nl, fail.
